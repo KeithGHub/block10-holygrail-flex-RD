@@ -1,0 +1,37 @@
+.CSS-flex-container-Example {
+  display: flex;
+  flex-flow: row wrap;
+  text-align: center;
+}
+
+.CSS-flex-container-Example > * {
+  padding: 10px;
+  margin: 10px;
+  flex: 1 100%;
+  border-radius: 10px;
+}
+
+.header {
+  background: pink;
+  height: 90;
+}
+
+.footer {
+  background: skyblue;
+  height: 80px;
+}
+
+.main {
+  text-align: left;
+  background: lightgreen;
+  height: 180px;
+  font-size: 23.5px;
+}
+
+.sidebar1 {
+  background: tan;
+}
+
+.sidebar2 {
+  background: tan;
+}
